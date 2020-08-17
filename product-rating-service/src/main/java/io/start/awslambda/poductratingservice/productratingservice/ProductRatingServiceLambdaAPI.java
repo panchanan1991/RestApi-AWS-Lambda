@@ -38,4 +38,9 @@ public class ProductRatingServiceLambdaAPI implements RequestHandler<AWSLambdaPo
 		System.out.println("retuning the object ");
 		return catalogModel;
 	}
+	
+	public static void main(String[] ags) {
+		ProductRatingService productRatingService= new ProductRatingService();
+		productRatingService.getProductRating("400");
+	}
 }

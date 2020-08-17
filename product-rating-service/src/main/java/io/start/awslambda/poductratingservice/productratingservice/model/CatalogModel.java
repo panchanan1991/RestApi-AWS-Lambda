@@ -6,43 +6,43 @@ package io.start.awslambda.poductratingservice.productratingservice.model;
  */
 public class CatalogModel {
 
-	private String productId;
-	private String productDetails;
-	private String name;
-	private String overview; 
-	private String release_date;
+	private String MovieId;
+	private String MovieDetails;
+	private String MovieName;
+	private String MovieOverview; 
+	private String MovieRelease_date;
 	private String error;
-	private String rating;
+	private String MovieRating;
 	private String countOfVoters;
-	public String getProductId() {
-		return productId;
+	public String getMovieId() {
+		return MovieId;
 	}
-	public void setProductId(String productId) {
-		this.productId = productId;
+	public void setMovieId(String movieId) {
+		MovieId = movieId;
 	}
-	public String getProductDetails() {
-		return productDetails;
+	public String getMovieDetails() {
+		return MovieDetails;
 	}
-	public void setProductDetails(String productDetails) {
-		this.productDetails = productDetails;
+	public void setMovieDetails(String movieDetails) {
+		MovieDetails = movieDetails;
 	}
-	public String getName() {
-		return name;
+	public String getMovieName() {
+		return MovieName;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setMovieName(String movieName) {
+		MovieName = movieName;
 	}
-	public String getOverview() {
-		return overview;
+	public String getMovieOverview() {
+		return MovieOverview;
 	}
-	public void setOverview(String overview) {
-		this.overview = overview;
+	public void setMovieOverview(String movieOverview) {
+		MovieOverview = movieOverview;
 	}
-	public String getRelease_date() {
-		return release_date;
+	public String getMovieRelease_date() {
+		return MovieRelease_date;
 	}
-	public void setRelease_date(String release_date) {
-		this.release_date = release_date;
+	public void setMovieRelease_date(String movieRelease_date) {
+		MovieRelease_date = movieRelease_date;
 	}
 	public String getError() {
 		return error;
@@ -50,11 +50,11 @@ public class CatalogModel {
 	public void setError(String error) {
 		this.error = error;
 	}
-	public String getRating() {
-		return rating;
+	public String getMovieRating() {
+		return MovieRating;
 	}
-	public void setRating(String rating) {
-		this.rating = rating;
+	public void setMovieRating(String movieRating) {
+		MovieRating = movieRating;
 	}
 	public String getCountOfVoters() {
 		return countOfVoters;
@@ -62,7 +62,5 @@ public class CatalogModel {
 	public void setCountOfVoters(String countOfVoters) {
 		this.countOfVoters = countOfVoters;
 	}
-	
-	
-	
+		
 }

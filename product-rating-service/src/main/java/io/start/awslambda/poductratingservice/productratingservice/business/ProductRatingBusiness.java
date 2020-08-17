@@ -101,25 +101,25 @@ public class ProductRatingBusiness {
 		if(null!=productDetailsModel && null!= productDetailsModel.getProductId() &&
 				productDetailsModel.getProductId().equals(id)) {
 			System.out.println("Product id :: "+productDetailsModel.getProductId());
-			catalogModel.setProductId(productDetailsModel.getProductId());
+			catalogModel.setMovieId(productDetailsModel.getProductId());
 			if(null!=productDetailsModel.getName()) {
 				System.out.println("Product name :: "+productDetailsModel.getName());
-				catalogModel.setName(productDetailsModel.getName());
+				catalogModel.setMovieName(productDetailsModel.getName());
 			}
 			if(null!=productDetailsModel.getProductDetails()) {
 				System.out.println("Product details :: "+productDetailsModel.getProductDetails());
-				catalogModel.setProductDetails(productDetailsModel.getProductDetails());
+				catalogModel.setMovieDetails(productDetailsModel.getProductDetails());
 			}
 			if(null!=productDetailsModel.getRelease_date()) {
 				System.out.println("Product release date :: "+productDetailsModel.getRelease_date());
-				catalogModel.setRelease_date(productDetailsModel.getRelease_date());
+				catalogModel.setMovieRelease_date(productDetailsModel.getRelease_date());
 			}
 		}
 		if(null!=productRatingModel && null!= productDetailsModel.getProductId() &&
 				productRatingModel.getProductId().equals(id)) {
 			if(null!=productRatingModel.getRating()) {
 				System.out.println("product rating out of 10 is "+productRatingModel.getRating());
-				catalogModel.setRating(productRatingModel.getRating());
+				catalogModel.setMovieRating(productRatingModel.getRating());
 			}
 			if(null!=productRatingModel.getCountOfVoters()) {
 				System.out.println("numer of user gave rating :: "+productRatingModel.getCountOfVoters());

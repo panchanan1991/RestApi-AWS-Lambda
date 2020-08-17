@@ -19,7 +19,7 @@ import io.start.awslambda.poductratingservice.productratingservice.model.Product
  */
 public class ProductRatingService {
 
-	private String apikey="61f1a1XXXXXXXXXXXaf623ff411d";
+	private String apikey="61f1a139b6cede3e8beecaf623ff411d";
 
 
 	ProductRatingBusiness productRatingBusiness= new ProductRatingBusiness();
